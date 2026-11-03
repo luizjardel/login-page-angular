@@ -7,7 +7,7 @@ import { tap } from 'rxjs';
   providedIn: 'root'
 })
 export class LoginService {
-  apiUrl: string = "http://localhost:8080/auth"
+  apiUrl: string = "https://login-auth-api-8lau.onrender.com/auth"
 
   constructor(private httpClient: HttpClient) { }
   
